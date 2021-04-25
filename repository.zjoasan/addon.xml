@@ -2,9 +2,9 @@
 <addon id="repository.zjoasan" name="Zjoasan Repository for Kodi 19.x (MATRIX)" version="1.0.1" provider-name="zjoasan">
 	<extension point="xbmc.addon.repository" name="Zjoasan Repository">
 		<dir>
-			<info>https://github.com/zjoasan/repository.zjoasan/raw/master/addons.xml</info>
-			<checksum>https://github.com/zjoasan/repository.zjoasan/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/zjoasan/repository.zjoasan/raw/master/zip</datadir>
+			<info>https://raw.githubusercontent.com/zjoasan/repository.zjoasan/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/zjoasan/repository.zjoasan/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/zjoasan/repository.zjoasan/main/zip</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
