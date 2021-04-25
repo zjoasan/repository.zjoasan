@@ -1,0 +1,61 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  <addon id="plugin.program.OSMC_pw_restore" name="Password restore for osmc user" version="0.0.2"" provider-name="zjoasan">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+      <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Passwd Restore</summary>
+      <description lang="en_GB">A simple addon to factory restore osmc users password.</description>
+      <disclaimer lang="en_GB">Simmple script that runs a line of bash code, to restore the user password for osmc.</disclaimer>
+  	  <assets>
+         <icon>icon.png</icon>
+         <fanart>fanart.jpg</fanart>
+      </assets>
+      <language>en</language>
+      <platform>all</platform>
+      <license>GPL2.0</license>
+      <website>https://osmc.tv/</website>
+      <email>joakim.s@webbkontakt.net</email>
+      <forum>https://discourse.osmc.tv/</forum>
+      <source>https://github.com/zjoasan/OSMC_Passwd_Restore</source>
+      <news>
+  v0.0.3 (2021-04-24)
+  - Updated the addon to python3 and changed extension point.
+      </news>
+    </extension>
+  </addon>
+
+<addon id="plugin.program.OSMC_OpenVPN_Restarter" name="OSMC OpenVPN Restarter" version="0.0.2" provider-name="Zjoasan">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Runs a shell script to restart OpenVPN service on OSMC</summary>
+      <description lang="en">Simple plugin that starts a vpnrestart.sh, where it stops the service waits 3 seconds and starts it again</description>
+      <disclaimer lang="en_GB">For OSMC</disclaimer>
+  	  <assets>
+         <icon>icon.png</icon>
+         <fanart>fanart.jpg</fanart>
+      </assets>
+      <language>en</language>
+      <platform>all</platform>
+      <license>GPL2.0</license>
+      <website>https://osmc.tv/</website>
+      <email>joakim.s@webbkontakt.net</email>
+      <forum>https://discourse.osmc.tv/</forum>
+      <source>https://github.com/zjoasan/OSMC_OpenVPN_Restarter</source>
+      <news>
+  v0.0.3 (2021-04-24)
+  - Updated the addon to python3 and changed extension point.
+      </news>
+    </extension>
+  </addon>
+</addons>
