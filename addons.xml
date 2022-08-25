@@ -58,4 +58,33 @@
       </news>
     </extension>
   </addon>
+                              
+  <addon id="service.osmc.tts" name="OSMC screen reader" version="0.8"" provider-name="zjoasan">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+      <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">Screen reader</summary>
+      <description lang="en_GB">A simple service that uses os installed text2speech.</description>
+      <disclaimer lang="en_GB">This service is tailored to run as part of an OSMC package.</disclaimer>
+  	  <assets>
+         <icon>icon.png</icon>
+         <fanart>fanart.jpg</fanart>
+      </assets>
+      <language>en</language>
+      <platform>all</platform>
+      <license>GPL2.0</license>
+      <website>https://osmc.tv/</website>
+      <email>joakim.s@webbkontakt.net</email>
+      <forum>https://discourse.osmc.tv/</forum>
+      <source>https://github.com/zjoasan/service.osmc.tts</source>
+      <news>
+  v0.8 (2022-08-25)
+  - forked service.xbmc.tts, patched for python3, renamed to service.osmc.tts
+      </news>
+    </extension>
+  </addon>
 </addons>
